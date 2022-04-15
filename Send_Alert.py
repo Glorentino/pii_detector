@@ -9,12 +9,12 @@ from pathlib import Path
 import base64
 
 MAX_FILE_SIZE = 2000000
-SENDER_EMAIL = "christesting789@gmail.com"
-RECEIVER_EMAIL = ["christesting160@gmail.com","christesting124@gmail.com"]
+SENDER_EMAIL = "email1@gmail.com"
+RECEIVER_EMAIL = ["email2@gmail.com","email3@gmail.com"]
 CC_EMAIL = ""
 
 def password():
-    MY_PASSWORD = "Chris1996!".encode('utf-8')
+    MY_PASSWORD = "YourPassword".encode('utf-8')
     base64_bytes = base64.b64encode(MY_PASSWORD)
     decoded_bytes = base64.b64decode(base64_bytes)
     pwd1 = decoded_bytes.decode()
